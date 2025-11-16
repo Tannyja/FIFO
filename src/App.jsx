@@ -396,7 +396,7 @@ export default function App() {
                     textAlign: "center",
                   }}
                 >
-                  FIFO Simulation Grid (Frames × Steps)
+                  FIFO Grid (Frames × Steps)
                 </Typography>
 
                 <Typography
@@ -426,12 +426,12 @@ export default function App() {
                         justifyContent: "center",
                       }}
                     >
-                      <Box sx={{ width: 80 }} />
+                      <Box sx={{ width: 76 }} />
                       {result.map((_, step) => (
                         <Box
                           key={step}
                           sx={{
-                            width: 40,
+                            width: 46,
                             textAlign: "center",
                             fontSize: 11,
                             color: "rgba(203,213,255,0.8)",
